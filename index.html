@@ -8,7 +8,10 @@
     <!--Link CSS-->
     <link rel="stylesheet" href="css/style.css" />
     <!--Icons-->
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,75 +22,86 @@
     />
   </head>
   <body>
+    <!--Header-->
     <header>
-        <!--Nav-->
-        <div class="nav container">
-            <a href="#" class="logo">Ecommerce</a>
-            <!--icone-->
-            <box-icon type='solid' name='shopping-bag' id="cart-icon"></box-icon>
+      <!--Nav-->
+      <div class="nav container">
+        <a href="#" class="logo">Ecommerce</a>
+        <!--icone-->
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        <div class="cart">
+          <h2 class="card-title">You Card</h2>
+          <div class="cart-content">
+            <div class="cart-box">
+             
+            </div>
         </div>
+
+        <div class="total">
+            <div class="total-title">total</div>
+            <div class="total-price">$0</div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class="bx bx-x" id="close-cart"></i
+            ><!--JS-->
+          
+        </div>
+      </div>
     </header>
-
+    <!--Shop-->
     <section class="shop container">
-        <h1 class="section-title">
-            Produtos da Loja
-        </h1>
-        <div class="shop-content">
-
-            <div class="product-box">
-                <img src="img/hd.externo.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">Hd Externo</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-
-            <div class="product-box">
-                <img src="img/fone.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">Fone de Ouvido</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/mouse.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">Mouse</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/bateria.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">Bateria</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/impressora.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">Impressora</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/gabinete-1.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">Gabinete</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/cameras.jpg.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">Cameras</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/teclado.jpg" alt="hd-externo" class="product-img">
-                <h2 class="product-title">teclado</h2>
-                <span class="price">$150</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
+      <h1 class="section-title">Produtos da Loja</h1>
+      <div class="shop-content">
+        <div class="product-box">
+          <img src="img/hd.externo.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">Hd Externo</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
         </div>
+
+        <div class="product-box">
+          <img src="img/fone.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">Fone de Ouvido</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/mouse.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">Mouse</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/bateria.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">Bateria</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/impressora.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">Impressora</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/gabinete-1.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">Gabinete</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/cameras.jpg.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">Cameras</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/teclado.jpg" alt="hd-externo" class="product-img" />
+          <h2 class="product-title">teclado</h2>
+          <span class="price">$150</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
     </section>
-
-
-
 
     <script src="js/index.js"></script>
   </body>
