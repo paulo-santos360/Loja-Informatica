@@ -28,11 +28,6 @@ Este projeto foi criado usando HTML, CSS e JavaScript. Ele apresenta uma página
 3. Navegue pelos produtos, adicione-os ao carrinho e experimente a funcionalidade do carrinho.
 4. Personalize o projeto conforme necessário para atender às suas necessidades.
 
-## Autor 📝
-
-- **Nome:** [Seu Nome]
-- **E-mail:** [Seu E-mail]
-
 ## Licença 📜
 
 Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](MIT) para obter detalhes.
