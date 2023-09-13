@@ -1,8 +1,9 @@
 # Loja de Informática 🖥️🛒
 
+Bem-vindo ao repositório da "Loja de Informática"! Este é um projeto de e-commerce simples para uma loja de produtos de informática, onde os usuários podem navegar pelos produtos, adicioná-los ao carrinho e finalizar a compra.
+
 ![Loja de Informática](https://user-images.githubusercontent.com/102436341/230511941-a9ac60ca-612f-440f-8f6c-1e48728bbb7b.png)
 
-Bem-vindo ao repositório da "Loja de Informática"! Este é um projeto de e-commerce simples para uma loja de produtos de informática, onde os usuários podem navegar pelos produtos, adicioná-los ao carrinho e finalizar a compra.
 
 ## Visão Geral 📄
 
